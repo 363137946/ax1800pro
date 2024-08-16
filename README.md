@@ -11,7 +11,7 @@ https://github.com/VIKINGYFY/immortalwrt.git
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-jd jx1800 pro
+jd ax1800 pro
 
 # 目录简要说明：
 
