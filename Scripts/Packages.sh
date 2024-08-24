@@ -39,6 +39,7 @@ UPDATE_PACKAGE "advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
 
 UPDATE_PACKAGE "pushbot" "zzsj0928/luci-app-pushbot" "master"
 UPDATE_PACKAGE "parentcontrol" "363137946/luci-app-parentcontrol" "main"
+UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main"
 
 if [[ $WRT_REPO == *"lede"* ]]; then
 	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
