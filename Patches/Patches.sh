@@ -16,6 +16,6 @@ if [[ $WRT_REPO == *"immortalwrt"* ]]; then
     config include 'miniupnpd'
 	option type 'script'
 	option path '/usr/share/miniupnpd/firewall.include'
-    EOF
+EOF
 	echo "$WRT_REPO patch has been installed!"
 fi
