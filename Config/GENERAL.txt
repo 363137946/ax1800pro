@@ -91,7 +91,7 @@ CONFIG_PACKAGE_luci-app-accesscontrol=y
 CONFIG_PACKAGE_luci-app-fileassistant=n
 
 #添加docker
-CONFIG_PACKAGE_luci-app-docker=y
+#CONFIG_PACKAGE_luci-app-docker=y
 #添加sftp
 CONFIG_PACKAGE_openssh-sftp-server=y
 #添加微信推送
@@ -102,4 +102,4 @@ CONFIG_PACKAGE_luci-app-cpufreq=y
 #添加家长控制
 CONFIG_PACKAGE_luci-app-parentcontrol=y
 #添加lucky
-CONFIG_PACKAGE_luci-app-lucky=y
+#CONFIG_PACKAGE_luci-app-lucky=y
