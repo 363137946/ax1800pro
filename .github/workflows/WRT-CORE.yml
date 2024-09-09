@@ -178,6 +178,15 @@ jobs:
           $GITHUB_WORKSPACE/Scripts/Settings.sh
 
           make defconfig
+          
+      - name: Refresh Patches
+        continue-on-error: true
+        if: env.WRT_TEST != 'true'
+        run: |
+          cd ./wrt/
+
+          make target/linux/refresh -j$(nproc) -k
+          make package/refresh -j$(nproc) -k
 
       - name: Download Packages
         if: env.WRT_TEST != 'true'
