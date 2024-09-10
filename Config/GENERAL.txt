@@ -104,3 +104,5 @@ CONFIG_PACKAGE_luci-app-cpufreq=y
 CONFIG_PACKAGE_luci-app-parentcontrol=y
 #添加lucky
 CONFIG_PACKAGE_luci-app-lucky=y
+#添加终端
+CONFIG_PACKAGE_luci-app-ttyd=y
